@@ -4,7 +4,7 @@ import "../Home/main.css";
 import InputBase from "@material-ui/core/InputBase";
 
 const cal = new URL("../../assets/images/cal.png",import.meta.url)
-
+const user = new URL("../../assets/images/user.png",import.meta.url)
 function Navbar() {
     const navRef = useRef();
 
@@ -15,7 +15,7 @@ function Navbar() {
     return (
         <header>
 
-            {/*<img src={cal} style={{ position:"absolute",top:123, left:200,height:30,width:30}}/>*/}
+            <img src={cal} style={{ position:"relative",top:5, left:20,height:30,width:30}}/>
             <h3>Date</h3>
             <nav ref={navRef}>
                 <a href="/#">Day</a>

@@ -75,7 +75,7 @@ const Sidebar = ({children}) => {
 
         {
             path:"/product",
-            name:"Jira",
+            name:"Settings",
             icon:<FaJira/>
         }
 
