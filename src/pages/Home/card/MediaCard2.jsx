@@ -65,7 +65,7 @@ const MediaCard2 = ({}) => {
                 </CardActionArea>
             </Card>
 
-            <Card sx={{ maxWidth: 250,ml:-1,mt:-20 }}>
+            <Card sx={{ maxWidth: 250,ml:-1,mt:-55 }}>
                 <CardActionArea>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
@@ -122,7 +122,7 @@ const MediaCard2 = ({}) => {
 
 
 
-            <Card sx={{ maxWidth: 250,ml:80,mt:-20}}>
+            <Card sx={{ maxWidth: 250,ml:80,mt:-22}}>
                 <CardActionArea>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
@@ -208,7 +208,7 @@ const MediaCard2 = ({}) => {
 
 
             <Grid>
-                <Card sx={{ maxWidth: 700,ml:120,mt:-65}}>
+                <Card sx={{ maxWidth: 700,ml:120,mt:-80}}>
 
 
 
@@ -258,6 +258,13 @@ const MediaCard2 = ({}) => {
                                 UX designer
                             </Typography>
 
+
+                            <Typography variant="h6" color="text.secondary">
+                                Liza Black
+                            </Typography>
+                            <Typography variant="h7" color="text.secondary">
+                                UX designer
+                            </Typography>
 
                             <Typography variant="h6" color="text.secondary">
                                 Liza Black
